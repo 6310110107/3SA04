@@ -34,7 +34,7 @@ export default function Weather(props) {
        
 
     return (
-            <ImageBackground source={require('../bg.jpg')} style={styles.backdrop}>
+        <ImageBackground source={forecastInfo.temp < 28 ? require('../Cool.jpg') : require('../Hot.jpg')} style={styles.backdrop}>
                 <View style={styles.segmented}>
                     <Text style={styles.text}>Zip Code is {props.zipCode}</Text>
                     <Forecast {...forecastInfo} />
