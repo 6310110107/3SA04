@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import { ImageBackground, StyleSheet, Text, View } from "react-native";
-import Forecast from "./Forecast";
+import React, {useState, useEffect} from 'react';
+import { Text, ImageBackground, StyleSheet, View} from 'react-native';
+import Forecast from './Forecast';
 
 export default function Weather(props) {
     const [forecastInfo, setForecastInfo] = useState({
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     segmented: {
         backgroundColor: 'rgba(0, 0, 0, 0.6)',
         width:"100%", 
-        height:"40%", 
+        height:"45%", 
         alignItems: 'center'
     },
 });
