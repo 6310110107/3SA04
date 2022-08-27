@@ -22,5 +22,3 @@ const styles = StyleSheet.create({
     paddingTop: Constants.StatusBarHeight
   },
 });
-
-//นาทีที่ 25.09
